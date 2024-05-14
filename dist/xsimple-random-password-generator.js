@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.generateRandomPassword = void 0;
 function generateRandomPassword({ length = 8, includeNumbers = true, includeLowercase = true, includeUppercase = true, includeSpecialChars = true, }) {
     let charset = "";
     if (includeNumbers) {
@@ -21,4 +22,5 @@ function generateRandomPassword({ length = 8, includeNumbers = true, includeLowe
     }
     return password;
 }
-exports.default = generateRandomPassword;
+exports.generateRandomPassword = generateRandomPassword;
+//# sourceMappingURL=xsimple-random-password-generator.js.map

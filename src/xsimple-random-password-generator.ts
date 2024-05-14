@@ -1,4 +1,4 @@
-export default function generateRandomPassword({
+export function generateRandomPassword({
   length = 8,
   includeNumbers = true,
   includeLowercase = true,

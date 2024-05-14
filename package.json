@@ -1,13 +1,28 @@
 {
   "name": "xsimple-random-password-generator",
-  "version": "0.1.0",
   "description": "",
-  "main": "./dist/xsimple-random-password-generator.js",
+  "version": "0.1.2",
+  "main": "dist/xsimple-random-password-generator.js",
+  "author": "Ehsan Safarkhanloo",
+  "homepage": "https://github.com/EhsanSafarkhanloo/simple-random-password-generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EhsanSafarkhanloo/simple-random-password-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EhsanSafarkhanloo/simple-random-password-generator/issues"
+  },
+    "keywords": [
+    "random",
+    "password",
+    "password generator",
+    "random password generator",
+    "simple password generator",
+    "utility"
+  ],
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.11",
