@@ -1,8 +1,8 @@
 {
-  "name": "simple-password-generator",
-  "version": "1.0.0",
+  "name": "xsimple-random-password-generator",
+  "version": "0.1.0",
   "description": "",
-  "main": "simple-password-generator.ts",
+  "main": "./dist/xsimple-random-password-generator.js",
   "scripts": {
     "build": "tsc"
   },
