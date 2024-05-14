@@ -28,7 +28,7 @@ Welcome to the **Simple Random Password Generator**! This repository contains a 
    // 2: with length and specials controls
    const strongPasswordWithCustomParameters = genereatePassword({
       length: 12,
-      includeNumbers: false,
+      includeNumbers: true,
       includeLowercase: true
       includeUppercase: true
       includeSpecialChars: false
