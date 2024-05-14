@@ -17,11 +17,29 @@ Welcome to the **Simple Random Password Generator**! This repository contains a 
 
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ehsansafarkhanloo/simple-random-password-generator.git
+1. Install:
 
-1. Navigate to the project directory::
    ```bash
-   cd simple-random-password-generator
+   npm i xsimple-random-password-generator
 
+   ```
+
+1. Usage:
+
+   ```sh
+   import { generateRandomPassword } from "xsimple-random-password-generator";
+
+   // 1: simple usage
+   console.log(generateRandomPassword()) // 9wpsSX=8
+
+   // 2: with length and specials controls
+   const strongPasswordWithCustomParameters = genereatePassword({
+      length: 12,
+      includeNumbers: false,
+      includeLowercase: true
+      includeUppercase: true
+      includeSpecialChars: false
+   })
+
+   console.log(strongPasswordWithCustomParameters) // eXVQfaBxNj2z
+   ```
