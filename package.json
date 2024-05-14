@@ -1,0 +1,16 @@
+{
+  "name": "simple-password-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple-password-generator.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "typescript": "^5.4.5"
+  }
+}
