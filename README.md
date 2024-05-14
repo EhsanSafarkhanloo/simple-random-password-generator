@@ -8,13 +8,6 @@ Welcome to the **Simple Random Password Generator**! This repository contains a 
 - **TypeScript:** Leverage the power and safety of TypeScript to generate secure passwords.
 - **Easy to Use:** Simple API for generating random passwords with desired criteria.
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js installed on your machine
-- TypeScript installed globally (`npm install -g typescript`)
-
 ### Installation
 
 1. Install:
